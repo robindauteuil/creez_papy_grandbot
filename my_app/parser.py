@@ -13,8 +13,7 @@ class Parser:
         lower_sentence = sentence.lower().split(' ')
         parse_reponse = []
         for word in lower_sentence:
-            print(word)
-            print(word not in stop_array)
+
             if word not in stop_array:
                 parse_reponse.append(word)
 
